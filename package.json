@@ -2,9 +2,11 @@
   "name": "backend-course-2025-4",
   "version": "1.0.0",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node main.js -i house-price.json -h localhost -p 3000",
+  "dev": "nodemon -- main.js -i house-price.json -h localhost -p 3000"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BtativnykA/backend-course-2025-4.git"
